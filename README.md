@@ -123,16 +123,16 @@ java -cp src edu.ccrm.cli.MainApp
 2. 🎯 Right-click on `MainApp.java` in `edu.ccrm.cli`
 3. ▶️ Select "Run As" → "Java Application"
 
-![alt text](1.png)
+![alt text](D:\CCRM-main\screenshots\1.png)
 
 
-![alt text](2.png)
+![alt text](D:\CCRM-main\screenshots\2.png)
 
 
-![alt text](3.png)
+![alt text](D:\CCRM-main\screenshots\3.png)
 
 
-![alt text](4.png)
+![alt text](D:\CCRM-main\screenshots\4.png)
 </details>
 
 <details>
@@ -423,7 +423,7 @@ javac -version
 
 # Expected output:
 
-![alt text](1.png)
+![alt text](D:\CCRM-main\screenshots\5.png)
 
 # java version "11.0.x" 2023-xx-xx LTS
 # Java(TM) SE Runtime Environment (build 11.0.x+x-LTS)
