@@ -13,25 +13,29 @@ public class Student extends Person {
     private boolean active;
     private List<String> enrolledCourses ;
 
-    private LocalDate Enrolment_Date;
+    private LocalDate Enrollment_Date;
 
     public Student(String id, String regNo, String fullName, String email) {
         super(id, fullName, email);
+
+
 
         this.regNo =  regNo;
         this.active =    true ;
 
 
         this.enrolledCourses   = new ArrayList<>();
-        this.Enrolment_Date =  LocalDate.now() ;
+        this.Enrollment_Date =  LocalDate.now() ;
     }
 
     @Override
     public String getProfile() {
+
         return String.format("Student: %s (%s)", getFullName(), regNo);
     }
 
     public String get_RegNo() {
+
         return regNo;
 
 
@@ -39,6 +43,7 @@ public class Student extends Person {
 
     public void setRegNo(String regNo) {
         this.regNo = regNo;
+
     }
 
     public boolean isActive() {
@@ -53,6 +58,8 @@ public class Student extends Person {
 
     public List<String> getEnrolledCourses() {
         return enrolledCourses;
+
+
     }
 
     public void enrollCourse(String courseCode) {
@@ -61,12 +68,7 @@ public class Student extends Person {
 
             enrolledCourses.add(courseCode)   ;
 
-
-
         }
-
-
-
 
 
     }
@@ -81,7 +83,7 @@ public class Student extends Person {
         enrolledCourses.remove(courseCode) ;
     }
 
-    public LocalDate getEnrolment_Date() {
-        return Enrolment_Date;
+    public LocalDate getEnrollment_Date() {
+        return Enrollment_Date;
     }
 }

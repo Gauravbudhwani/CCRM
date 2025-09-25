@@ -122,17 +122,6 @@ java -cp src edu.ccrm.cli.MainApp
 1. 📂 Import project into Eclipse
 2. 🎯 Right-click on `MainApp.java` in `edu.ccrm.cli`
 3. ▶️ Select "Run As" → "Java Application"
-
-![alt text](D:\CCRM-main\screenshots\1.png)
-
-
-![alt text](D:\CCRM-main\screenshots\2.png)
-
-
-![alt text](D:\CCRM-main\screenshots\3.png)
-
-
-![alt text](D:\CCRM-main\screenshots\4.png)
 </details>
 
 <details>
@@ -422,9 +411,6 @@ java -version
 javac -version
 
 # Expected output:
-
-![alt text](D:\CCRM-main\screenshots\5.png)
-
 # java version "11.0.x" 2023-xx-xx LTS
 # Java(TM) SE Runtime Environment (build 11.0.x+x-LTS)
 ```
